@@ -1,0 +1,46 @@
+body {
+    background-color:linen;
+}
+
+h1 {
+    font-weight:normal;
+}
+
+/* externally declared styles are the least specific */
+/* command plus forward slash equals comment toggle */
+header {
+    margin:20px;
+    background-color:lightgray;
+    padding:20px;
+    border:1px solid;
+}
+
+/* base tag is the least specific */
+main {
+    margin:20px;
+    padding:20px;
+    border:1px solid;
+    background-color:brown;
+}
+
+/* classes are more specific than the base tag, but less specific than an id */
+.class {
+    background-color:#83cdcf;
+}
+
+/* id is the most specific */
+#id {
+    background-color:lightgoldenrodyellow;
+}
+
+footer {
+    margin:20px;
+    padding:20px;
+    border:1px solid;
+    background-color:#b99af8
+}
+
+/* styles lower in the css document are more specific than styles declared above */
+footer {
+    background-color:tomato;
+}

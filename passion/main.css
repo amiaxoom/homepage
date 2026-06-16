@@ -1,0 +1,47 @@
+body {
+    background-color:lightyellow;
+    background-image: url("polkadot-background.jpg");
+    background-repeat: repeat;
+}
+
+p {
+    color:#ec1f86;
+    background-color:#ffefc3;
+    font-size:25px;
+    border: 5px dotted #ec1f86;
+
+    /* padding is for internal element spacing */
+    padding:25px;
+
+    /* margin is for external spacing of elemnets */
+    margin:40px;
+
+    font-weight:normal;
+    line-height:20px;
+    letter-spacing:2px;
+    font-style:normal;
+}
+
+h1 {
+    color:#ec1f86;
+    background-color:#ffefc3;
+    text-align:center
+}
+
+img {
+  display:inline;
+  margin: auto;
+}
+
+a:hover {
+    background-color:#61dbeb;
+    color:lightyellow;
+}
+
+.banner {
+    text-align:center;
+}
+
+.button:hover {
+  scale:1.1;
+}

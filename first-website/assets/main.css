@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'ouvrie`res soldates';
+    src: url('ouvrieres-soldates.woff2') format('woff2'),
+        url('ouvrieres-soldates.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background-color:lightyellow;
+    background-image: url("funnydogy.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-family: "Iosevka Charon", monospace;
+}
+
+p {
+    color:darkslateblue;
+    background-color:bisque;
+    font-size:25px;
+    border:10px dotted seagreen;
+
+    /* padding is for internal element spacing */
+    padding:50px;
+
+    /* margin is for external spacing of elemnets */
+    margin:80px;
+
+    font-weight:normal;
+    line-height:20px;
+    letter-spacing:2px;
+    font-style:normal;
+}
+
+p:hover {
+    background-color:cornflowerblue;
+}
+
+h1 {
+    color:#79a7dc;
+    font-family: "Iosevka Charon", monospace;
+    font-weight:lighter;
+    font-style:italic;
+}
+
+h2 {
+    font-family: 'ouvrie`res soldates';
+}
+
+.banner {
+    background-color:coral;
+    font-size:40px;
+    text-align:center;
+}
+
+a {
+    background-color:aliceblue;
+    color:brown;
+    text-decoration:none;
+}
+
+a:hover {
+    background-color:brown;
+    color:aliceblue;
+}
