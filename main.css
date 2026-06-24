@@ -19,22 +19,21 @@ a:hover {
     color:#d4446f;
 }
 
-.fixed {
+.fixed-bottom {
     position:fixed;
-    bottom:0;
-    right:0;
+    bottom:-140px;
+    left:0;
     margin:0;
 }
 
 .fixed-left {
     position:fixed
-    rotate: 180deg;
 }
 
-.fixed-bottom {
+.fixed {
     position:fixed;
-    bottom:-50px;
-    left:0;
+    bottom:0;
+    right:0;
     margin:0;
 }
 

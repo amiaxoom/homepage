@@ -102,10 +102,28 @@ body {
 
 @keyframes move {
     0% {
-        left:-100vw;
+        left:-150px;
+        rotate:0deg;
+    }
+
+    10% {
+        rotate:0deg;
+    }
+
+    30% {
+        rotate:180deg;
+    }
+
+    35% {
+        rotate:180deg;
+    }
+
+    50% {
+        rotate:0deg;
     }
 
     100% {
         left:100vw;
+        rotate:0deg;
     }
 }
