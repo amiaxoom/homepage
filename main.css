@@ -1,3 +1,78 @@
+/* @font-face {
+    font-family: 'balsamicsans-regular';
+    src: url('assets/balsamiqsans-regular.woff2') format('woff2'),
+        url('assets/balsamiqsans-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+} */
+
 body {
-    background-color:darkseagreen;
+    background-color:#faf5d6;
+    background-image: url(assets/cake.jpg);
+    background-size: contain;
+    /* font-family: "balsamiqsans-regular"; */
+}
+
+a:hover {
+    background-color:#afe668;
+    color:#d4446f;
+}
+
+.fixed {
+    position:fixed;
+    bottom:0;
+    right:0;
+    margin:0;
+}
+
+.fixed-left {
+    position:fixed
+    rotate: 180deg;
+}
+
+.fixed-bottom {
+    position:fixed;
+    bottom:-50px;
+    left:0;
+    margin:0;
+}
+
+.container {
+    background-color:#cabfae;
+    border:dashed 5px #e0ddd0;
+    padding:20px;
+    height: 90vh;
+    margin:30px;
+    border-radius:25px;
+}
+
+.top {
+    background-color:lightgray;
+    
+}
+
+.work {
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.work-projects {
+    background-color:#6d8153;
+    padding:10px;
+    border-radius:25px;
+}
+
+.work-exercises {
+    background-color:#6d8153;
+    padding:10px;
+    border-radius:25px;
+}
+
+.work-journals {
+    background-color:#6d8153;
+    padding:10px;
+    border-radius:25px;
 }

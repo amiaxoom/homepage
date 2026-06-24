@@ -1,0 +1,41 @@
+.block {
+    background-color:#bcc7fa;
+    margin:10px;
+    padding:10px;
+}
+
+.inline {
+    background-color:lemonchiffon;
+    /* width, height, padding, and margin have no effect on inline elements by default */
+}
+
+.inline-block {
+    background-color:burlywood;
+    display:inline-block;
+    width:150px;
+    height:150px;
+    margin:50px;
+    padding:20px;
+}
+
+.content-box {
+    background-color:#b3f1e9;
+    width:200px;
+    height:200px;
+    /* by default, width and height define the size of the content box rather than the entire element */
+    padding:50px;
+    border:10px solid darkkhaki;
+    margin:50px 40px 30px 20px;
+}
+
+.border-box {
+    background-color:#9d9bb8;
+    width:200px;
+    height:200px;
+    /* by default, width and height define the size of the content box rather than the entire element */
+    padding:50px;
+    border:10px solid #463277;
+    margin:50px 40px 30px 20px;
+
+    box-sizing:border-box;
+}
