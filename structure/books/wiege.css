@@ -1,0 +1,52 @@
+body {
+    background-color:grey;
+    animation:bg 20s;
+    animation-delay:0s;
+    animation-fill-mode:both;
+}
+
+@keyframes bg {
+    from {background-color:grey;}
+    to {background-color:black;}
+}
+
+@keyframes blood {
+    from {opacity:0%}
+    to {opacity:100%}
+}
+
+p {
+    color:white;
+    z-index:999;
+}
+
+p:hover {
+    color:#991717;
+    transition:all 1s;
+}
+
+.fixed-top {
+    position:fixed;
+    right:0PX;
+    animation:blood 20s both 5s;
+}
+
+.fixed-bottom {
+    position:fixed;
+    bottom:0px;
+    animation:blood 20s both 10s;
+}
+
+.fixed-center {
+    position:fixed;
+    left:0;
+    width:5000px;
+    animation:blood 20s both 15s;
+}
+
+.fixed-bottom-right {
+    position:fixed;
+    right:0px;
+    bottom:0px;
+    animation:blood 20s both 20s;
+}
