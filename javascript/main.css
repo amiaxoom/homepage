@@ -1,0 +1,53 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color:#cfb7d3;
+    transition: background .3s;
+}
+
+.dark {
+    background:#2a222e;
+}
+
+img {
+    max-width:100%;
+}
+
+.menu {
+    background:#585c86;
+    position:fixed;
+    top:0;
+    right:-300px;
+    width:300px;
+    height:100vh;
+
+    padding:20px;
+    text-align:center;
+    font-size:150%;
+    transition: right .3s, background .3s;
+}
+
+.active {
+    right:0;
+}
+
+.gear {
+    background-color:#585c86;
+    position:fixed;
+    width:100px;
+    height:100px;
+    bottom:30px;
+    left:30px;
+
+    transition:rotate .3s, background .3s;
+}
+
+.spin {
+    rotate:180deg;
+}
+
+.glow {
+    background:#90b6bb;
+}
