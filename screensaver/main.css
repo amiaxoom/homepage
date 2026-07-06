@@ -5,3 +5,543 @@
 img {
     max-width:100%;
 }
+
+body {
+    color:white;
+    background-color:black;
+    overflow:hidden;
+}
+
+.container {
+    padding:20px;
+}
+
+.customers {
+    position:fixed;
+    width:50%;
+    bottom:0;
+    right:0;
+}
+
+.customer-01 {
+    animation: customer 70s infinite both;
+}
+
+#customer-01 {
+    animation: speech 70s infinite both;
+    animation-delay:0s;
+}
+
+.customer-02 {
+    animation: customer 70s infinite both;
+    animation-delay:5s;
+}
+
+#customer-02 {
+    animation: speech 70s infinite both;
+    animation-delay:5s;
+}
+
+.customer-03 {
+    animation: customer 70s infinite both;
+    animation-delay:10s;
+}
+
+#customer-03 {
+    animation: speech 70s infinite both;
+    animation-delay:10s;
+}
+
+.customer-04 {
+    animation: customer 70s infinite both;
+    animation-delay:15s;
+}
+
+#customer-04 {
+    animation: speech 70s infinite both;
+    animation-delay:15s;
+}
+
+.customer-05 {
+    animation: customer 70s infinite both;
+    animation-delay:20s;
+}
+
+#customer-05 {
+    animation: speech 70s infinite both;
+    animation-delay:20s;
+}
+
+.customer-06 {
+    animation: customer 70s infinite both;
+    animation-delay:25s;
+}
+
+#customer-06 {
+    animation: speech 70s infinite both;
+    animation-delay:25s;
+}
+
+.customer-07 {
+    animation: customer 70s infinite both;
+    animation-delay:30s;
+}
+
+#customer-07 {
+    animation: speech 70s infinite both;
+    animation-delay:30s;
+}
+
+.customer-08 {
+    animation: customer 70s infinite both;
+    animation-delay:35s;
+}
+
+#customer-08 {
+    animation: speech 70s infinite both;
+    animation-delay:35s;
+}
+
+.customer-09 {
+    animation: customer 70s infinite both;
+    animation-delay:40s;
+}
+
+#customer-09 {
+    animation: speech 70s infinite both;
+    animation-delay:40s;
+}
+
+.customer-10 {
+    animation: customer 70s infinite both;
+    animation-delay:45s;
+}
+
+#customer-10 {
+    animation: speech 70s infinite both;
+    animation-delay:45s;
+}
+
+.customer-11 {
+    animation: customer 70s infinite both;
+    animation-delay:50s;
+}
+
+#customer-11 {
+    animation: speech 70s infinite both;
+    animation-delay:50s;
+}
+
+.customer-12 {
+    animation: customer 70s infinite both;
+    animation-delay:55s;
+}
+
+#customer-12 {
+    animation: speech 70s infinite both;
+    animation-delay:55s;
+}
+
+.customer-13 {
+    animation: customer 70s infinite both;
+    animation-delay:60s;
+}
+
+#customer-13 {
+    animation: speech 70s infinite both;
+    animation-delay:60s;
+}
+
+.customer-14 {
+    animation: customer 70s infinite both;
+    animation-delay:65s;
+}
+
+#customer-14 {
+    animation: speech 70s infinite both;
+    animation-delay:65s;
+}
+
+@keyframes customer {
+    0% {
+       right:-100vw; 
+       position:absolute;
+       bottom:0;
+    }
+
+    2.5% {
+        right:0;
+    }
+
+    5% {
+        right:0;
+    }
+
+    7.5% {
+        right:-100vw;
+        position:absolute;
+        bottom:0;
+    }
+
+    100% {
+        right:-100vw;
+        position:absolute;
+        bottom:0;
+    }
+
+}
+
+@keyframes speech {
+    0% {
+       right:-100vw; 
+       position:absolute;
+       bottom:600px;
+    }
+
+    2.5% {
+        right:10vw;
+    }
+
+    5% {
+        right:10vw;
+    }
+
+    7.5% {
+        right:-100vw;
+        position:absolute;
+        bottom:600px;
+    }
+
+    100% {
+        right:-100vw;
+        position:absolute;
+        bottom:700px;
+    }
+
+}
+
+.burger {
+    /* background-color:white; */
+    height:100vh;
+    width:400px;
+    padding:20px;
+    position:relative;
+    left:0;
+    animation:burger 5s infinite both;
+}
+
+@keyframes burger {
+    0% {
+        bottom:100vh;
+    }
+
+    25% {
+        bottom:0;
+    }
+
+    50% {
+        bottom:0;
+        left:0;
+    }
+
+    75% {
+        left:100vw;
+    }
+
+    100% {
+        left:100vw;
+        bottom:0;
+    }
+}
+
+#bun-bottom {
+    position:absolute;
+    bottom:0;
+}
+
+@keyframes ingredient {
+    0% {
+        bottom:100vh;
+    }
+
+    25% {
+        bottom:0;
+    }
+
+    75% {
+        bottom:0;
+    }
+
+    100% {
+        bottom:100vh;
+    }
+}
+
+#patty {
+    position:absolute;
+    animation: ingredient 5s infinite backwards;
+}
+
+#cheese {
+    position:absolute;
+    animation: cheese 5s infinite backwards;
+    animation-delay:.10s;
+}
+
+@keyframes cheese {
+    0% {
+        bottom:100vh;
+    }
+
+    25% {
+        bottom:20px;
+    }
+
+    75% {
+        bottom:20px;
+    }
+
+    100% {
+        bottom:100vh;
+    }
+}
+
+#ketchup {
+    position:absolute;
+    animation: ketchup 5s infinite backwards;
+    animation-delay:.2s;
+    width:200px;
+    left:100px;
+}
+
+@keyframes ketchup {
+    0% {
+        bottom:100vh;
+    }
+
+    25% {
+        bottom:150px;
+    }
+
+    75% {
+        bottom:150px;
+    }
+
+    100% {
+        bottom:100vh;
+    }
+}
+
+#grilled-onion {
+    position:absolute;
+    animation: grilled-onion 5s infinite backwards;
+    animation-delay:.3s;
+}
+
+@keyframes grilled-onion {
+    0% {
+        bottom:100vh;
+    }
+
+    25% {
+        bottom:100px;
+    }
+
+    75% {
+        bottom:100px;
+    }
+
+    100% {
+        bottom:100vh;
+    }
+}
+
+#lettuce {
+    position:absolute;
+    animation: lettuce 5s infinite backwards;
+    animation-delay:.4s;
+}
+
+@keyframes lettuce {
+    0% {
+        bottom:100vh;
+    }
+
+    25% {
+        bottom:180px;
+    }
+
+    75% {
+        bottom:180px;
+    }
+
+    100% {
+        bottom:100vh;
+    }
+}
+
+#tomato {
+    position:absolute;
+    animation: tomatoe 5s infinite backwards;
+    animation-delay:.5s;
+}
+
+@keyframes tomatoe {
+    0% {
+        bottom:100vh;
+    }
+
+    25% {
+        bottom:200px;
+    }
+
+    75% {
+        bottom:200px;
+    }
+
+    100% {
+        bottom:100vh;
+    }
+}
+
+#onion {
+    position:absolute;
+    animation: onion 5s infinite backwards;
+    animation-delay:.6s;
+}
+
+@keyframes onion {
+    0% {
+        bottom:100vh;
+    }
+
+    25% {
+        bottom:230px;
+    }
+
+    75% {
+        bottom:230px;
+    }
+
+    100% {
+        bottom:100vh;
+    }
+}
+
+#bacon {
+    position:absolute;
+    animation: bacon 5s infinite backwards;
+    animation-delay:.7s;
+}
+
+@keyframes bacon {
+    0% {
+        bottom:100vh;
+    }
+
+    25% {
+        bottom:240px;
+    }
+
+    75% {
+        bottom:240px;
+    }
+
+    100% {
+        bottom:100vh;
+    }
+}
+
+#mayo {
+    position:absolute;
+    animation: mayo 5s infinite backwards;
+    animation-delay:.8s;
+}
+
+@keyframes mayo {
+    0% {
+        bottom:100vh;
+    }
+
+    25% {
+        bottom:300px;
+    }
+
+    75% {
+        bottom:300px;
+    }
+
+    100% {
+        bottom:100vh;
+    }
+}
+
+#bun-top {
+    position:absolute;
+    animation: bun-top 5s infinite backwards;
+    animation-delay:.9s;
+}
+
+@keyframes bun-top {
+    0% {
+        bottom:100vh;
+    }
+
+    25% {
+        bottom:400px;
+    }
+
+    75% {
+        bottom:400px;
+    }
+
+    100% {
+        bottom:100vh;
+    }
+}
+
+#fries {
+    position:absolute;
+    width:70%;
+    height:auto;
+    bottom:0;
+    left:350px;
+    animation: fries 5s;
+}
+
+@keyframes fries {
+    0% {
+        bottom:100vh;
+    }
+
+    25% {
+        bottom:0;
+    }
+
+    100% {
+        bottom:0;
+    }
+}
+
+#drink {
+    position:absolute;
+    width:100%;
+    height:auto;
+    bottom:0;
+    left:200px;
+    animation:drink 5s;
+}
+
+@keyframes drink {
+    0% {
+        bottom:100vh;
+    }
+
+    25% {
+        bottom:0;
+    }
+
+    100% {
+        bottom:0;
+    }
+}
