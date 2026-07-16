@@ -192,7 +192,7 @@
 
         <span style="cursor:pointer"> <div class="npc-1">
 
-            <img src="../assets/easel.webp">
+            <img class="easel" src="../assets/easel.webp">
             <div id="brush"><img src="../assets/brush.png" width="70px"></div>
             <div id="painter"></div>
             <div id="hat-base"></div>
@@ -205,22 +205,40 @@
             <div class="boing-1">Boing!</div>
         </div>
 
-        <div class="directions">
-        <a href="page-a-02/index.html"> Store </a>
-        <br>
-        <a href="page-a-02/index.html"> Forest </a>
-        </div>
-
-        <!-- <div class="npc-1-choice"><p>What are you painting?</p><div> -->
-
         <div class="text-box invisible">
-            <div class="npc-1-text invisible"><p>"I always come out here when I'm free; it brings me peace."</p></div>
-            <div class="npc-2-text invisible"><p>"The breeze is so lovely today! It makes me want to run across all the hills and back. Do you like running up and down the hills?"</p></div>
+            <div class="npc-1-text text invisible">
+                <p>"I always come out here when I'm free; it brings me peace."</p>
+                <span style="cursor:pointer"><div class="npc-1-choice text invisible"><p>*ponder*</p></div></span>
+            </div>
+
+             <!-- <div class="npc-1-choice-response text invisible"><p>"Sure, it's still a work in progress, though."</p></div> -->
+
+            <div class="npc-2-text text invisible"><p>"The breeze is so lovely today! It makes me want to run across all the hills and back. Do you like running up and down the hills?"</p></div>
+        </div>
+
+        <div class="inventory">
+            <h1>Inventory<h2>
         </div>
 
 
+        <a href="store/index.html">
+            <div class="store-arrow"></div>
+        </a>
+        
+        <a href="forest/index.html">
+            <div class="forest-arrow"></div>
+        </a>
 
     </div>
+
+    <script>
+        var inventory = document.querySelector(".inventory")
+
+        function openMenu() {
+            console.log('it works!');
+            inventory.classList.toggle("active");
+        }
+    </script>
 
     <script src="jquery-4.0.0.min.js"></script>
     <script src="jquery-ui.min.js"></script>

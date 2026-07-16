@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Final</title>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+    <div class="container">
+        <button onclick="openMenu()">Inventory</button>
+
+        <div class="store-back">
+            <div class="wall"></div>
+                <span style="cursor:pointer"><div class="npc-clerk">
+                <div class="clerk">
+                </div>
+                <img class="cash-register" src="../../assets/cash-register.png" width="200px">
+                <div class="counter"></div>
+                <div class="counter-top"></div>
+                </div></span>
+
+            <div class="wall-2">
+                <div class="snacks">
+                    <div class="shelf">
+                        <div class="snack-01"></div>
+                        <div class="snack-02"></div>
+                        <div class="snack-03"></div>
+                        <div class="snack-04"></div>
+                        <div class="snack-05"></div>
+                    </div>
+                    <div class="shelf">
+                        <div class="snack-06"></div>
+                        <div class="snack-07"></div>
+                        <div class="snack-08"></div>
+                        <div class="snack-09"></div>
+                    </div>
+                    <div class="shelf">
+                        <div class="snack-10"></div>
+                        <div class="snack-11"></div>
+                        <div class="snack-12"></div>
+                        <div class="snack-13"></div>
+                    </div>
+                    <div class="shelf">
+                        <div class="snack-14"></div>
+                        <div class="snack-15"></div>
+                        <div class="snack-16"></div>
+                    </div>
+                </div>
+
+                <div class="food">
+                    <div class="shelf">
+                        <img class="chip-01" src="../../assets/chip-bag.png" width="150px">
+                        <img class="chip-02" src="../../assets/chip-bag.png" width="150px">
+                        <img class="chip-03" src="../../assets/chip-bag.png" width="150px">
+                        <img class="chip-04" src="../../assets/chip-bag.png" width="150px">
+                    </div>
+                    <div class="shelf">
+                        <img class="soda-01" src="../../assets/Soda_Can_Red_Clip_Art_Image.png" width="50px">
+                        <img class="soda-02" src="../../assets/Soda_Can_Red_Clip_Art_Image.png" width="50px">
+                        <img class="soda-03" src="../../assets/Soda_Can_Red_Clip_Art_Image.png" width="50px">
+                        <img class="soda-04" src="../../assets/Soda_Can_Red_Clip_Art_Image.png" width="50px">
+                        <img class="soda-05" src="../../assets/Soda_Can_Red_Clip_Art_Image.png" width="50px">
+                        <img class="soda-06" src="../../assets/Soda_Can_Red_Clip_Art_Image.png" width="50px">
+                        <img class="soda-07" src="../../assets/Soda_Can_Red_Clip_Art_Image.png" width="50px">
+                    </div>
+                    <div class="shelf">
+                        <img class="jar-01" src="../../assets/peanut-butter-jar.webp" width="100px">
+                        <img class="jar-02" src="../../assets/jam-jar.png" width="60px">
+                        <img class="jar-03" src="../../assets/peanut-butter-jar.webp" width="100px">
+                        <img class="jar-04" src="../../assets/jam-jar.png" width="60px">
+                        <img class="jar-05" src="../../assets/peanut-butter-jar.webp" width="100px">
+                        <img class="jar-06" src="../../assets/jam-jar.png" width="60px">
+                    </div>
+                    <div class="shelf">
+                        <img class="can-01" src="../../assets/soup-can.png" width="140px">
+                        <img class="can-02"src="../../assets/soup-can.png" width="140px">
+                        <img class="can-03"src="../../assets/soup-can.png" width="140px">
+                        <img class="can-04"src="../../assets/soup-can.png" width="140px">
+                        <img class="can-05"src="../../assets/soup-can.png" width="80px">
+                    </div>
+                </div>
+
+               <span style="cursor:pointer"><div class="npc-customer"></div></span>
+
+               <span style="cursor:pointer"><div class="npc-customer-02">
+                    <div class="customer-02"></div>
+                    <img class="shopping-cart" src="../../assets/shopping-cart.png" width="300px">
+               </div></span>
+
+               <span style="cursor:pointer"><div class="npc-customer-03"></div></span>
+
+                <span style="cursor:pointer"><div class="board">
+                    <div class="paper"></div>
+                    <div class="paper-2"></div>
+                    <div class="paper-3"></div>
+                    <div class="paper-4"></div>
+                </div></span>
+
+                <div class="board-zoomed-container invisible">
+                    <div class="board-zoomed ">
+                        <div class="paper-zoomed zoomed-1 draggable">
+                            <img src="../../assets/cloud-photo.jpg">
+                            <p class="caption">03/29 - Rain is coming :p</p>
+                        </div>
+                        <div class="paper-zoomed zoomed-2 draggable">
+                            <img src="../../assets/train-photo.jpg">
+                            <p class="caption">05/17 - Weekend Trip</p>
+                        </div>
+                        <div class="paper-zoomed zoomed-3 draggable">
+                            <img src="../../assets/plains-photo.jpg">
+                            <p class="caption">09/05 - Road Trip!</p>
+                        </div>
+                        <div class="paper-zoomed zoomed-4 draggable">
+                            <img src="../../assets/lighthouse-photo.jpg">
+                            <p class="caption">11/30 - Cold morning by the dock</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="store-front">
+        </div>
+
+        <div class="text-box invisible">
+            <div class="npc-clerk-text text invisible">
+                <p>"...Can I help you?"</p>
+            </div>
+
+            <div class="npc-customer-text text invisible">
+                <p>(They seem to be inspecting the soup brands.)</p>
+            </div>
+
+            <div class="npc-customer-02-text text invisible">
+                <p>"Hehehe, I hid a candy bar so my mom wouldn't find it. I'm gonna secretly put it in the cart when she's checking out!"</p>
+            </div>
+
+            <div class="npc-customer-03-text text invisible">
+                <p>"Can't...reach......Fruit Hoops....."</p>
+            </div>
+        </div>
+
+        <div class="inventory">
+            <h1>Inventory<h2>
+        </div>
+
+        <a href="../index.html">
+            <div class="hills-arrow"></div>
+        </a>
+    </div>
+
+    <div class="intro">Store</div>
+
+    <script>
+        var inventory = document.querySelector(".inventory")
+
+        function openMenu() {
+            console.log('it works!');
+            inventory.classList.toggle("active");
+        }
+    </script>
+
+    <script src="jquery-4.0.0.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
